@@ -20,7 +20,7 @@ const productItems = [
     iOSSrc: OfficeChairUsdz,
     category: "Furniture",
     color: "black",
-    price: 12000,
+    price: 1200,
     annotations: [
       {
         title: "comfortable-back",
@@ -46,7 +46,7 @@ const productItems = [
     iOSSrc: potUsdz,
     category: "Environment",
     color: "Red",
-    price: 2500,
+    price: 700,
     annotations: [
       {
         title: "pot-structure",
@@ -65,7 +65,7 @@ const productItems = [
     iOSSrc: iospainting,
     category: "Art",
     color: "Brown",
-    price: 8500,
+    price: 850,
     annotations: [
       {
         title: "wooden-frame",
@@ -92,7 +92,7 @@ const productItems = [
     iOSSrc: outdoorChairsUsdz,
     category: "Outdoor",
     color: "White",
-    price: 15000,
+    price: 5000,
     annotations: [
       {
         title: "weather-resistant",
@@ -119,7 +119,7 @@ const productItems = [
     iOSSrc: BeigeDeckChairUsdz,
     category: "Outdoor",
     color: "Beige",
-    price: 18000,
+    price: 3450,
     annotations: [
       {
         title: "adjustable-backrest",
