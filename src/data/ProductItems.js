@@ -9,7 +9,8 @@ import potUsdz from "../assets/models/pot.usdz";
 // Import new models
 import outdoorChairs from "../assets/models/Outdoor-Chairs.glb";
 import outdoorChairsUsdz from "../assets/models/Outdoor-Chairs.usdz";
-
+import BeigeDeckChair from "../assets/models/BeigeDeckChair.glb";
+import BeigeDeckChairUsdz from "../assets/models/BeigeDeckChair.usdz";
 
 const productItems = [
   {
@@ -108,6 +109,33 @@ const productItems = [
         normal: "-0.31m 0.95m -0.005m",
         orbit: "12deg 115deg 0.035m",
         target: "-0.10m 0.02m 0.10m"
+      },
+    ]
+  },
+  {
+    id: 6,
+    name: "Beige Deck Chair",
+    modelSrc: BeigeDeckChair,
+    iOSSrc: BeigeDeckChairUsdz,
+    category: "Outdoor",
+    color: "Beige",
+    price: 18000,
+    annotations: [
+      {
+        title: "adjustable-backrest",
+        slot: "hotspot-1",
+        position: "0.02m 0.5m -0.1m",
+        normal: "0.03m 0.2m 0.95m",
+        orbit: "20deg 120deg 0.05m",
+        target: "-0.12m 0.03m 0.08m"
+      },
+      {
+        title: "sturdy-frame",
+        slot: "hotspot-2",
+        position: "0.01m 0.3m 0.2m",
+        normal: "-0.3m 0.9m -0.01m",
+        orbit: "18deg 100deg 0.04m",
+        target: "-0.1m 0.02m 0.1m"
       },
     ]
   }
