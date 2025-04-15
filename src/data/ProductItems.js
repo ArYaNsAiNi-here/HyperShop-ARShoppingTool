@@ -12,6 +12,9 @@ import outdoorChairsUsdz from "../assets/models/Outdoor-Chairs.usdz";
 import BeigeDeckChair from "../assets/models/BeigeDeckChair.glb";
 import BeigeDeckChairUsdz from "../assets/models/BeigeDeckChair.usdz";
 
+import WoodenDisplayShelf from "../assets/models/WoodenDisplayShelf.glb";
+import WoodenDisplayShelfUsdz from "../assets/models/WoodenDisplayShelf.usdz";
+
 const productItems = [
   {
     id: 2,
@@ -136,6 +139,33 @@ const productItems = [
         normal: "-0.3m 0.9m -0.01m",
         orbit: "18deg 100deg 0.04m",
         target: "-0.1m 0.02m 0.1m"
+      },
+    ]
+  },
+  {
+    id: 7,
+    name: "Wooden Display Shelf",
+    modelSrc: WoodenDisplayShelf,
+    iOSSrc: WoodenDisplayShelfUsdz,
+    category: "Furniture",
+    color: "Brown",
+    price: 5500,
+    annotations: [
+      {
+        title: "spacious-shelves",
+        slot: "hotspot-1",
+        position: "0.02m 0.8m -0.1m",
+        normal: "0.03m 0.2m 0.95m",
+        orbit: "25deg 130deg 0.06m",
+        target: "-0.15m 0.04m 0.1m"
+      },
+      {
+        title: "sturdy-wood",
+        slot: "hotspot-2",
+        position: "0.01m 0.5m 0.2m",
+        normal: "-0.3m 0.9m -0.01m",
+        orbit: "20deg 110deg 0.05m",
+        target: "-0.12m 0.03m 0.08m"
       },
     ]
   }
