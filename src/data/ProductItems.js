@@ -19,6 +19,8 @@ import BrownDiningChairUsdz from "../assets/models/BrownDiningChair.usdz";
 
 import WhiteRoundCoffeeTable from "../assets/models/WhiteRoundCoffeeTable.glb";
 import WhiteRoundCoffeeTableUsdz from "../assets/models/WhiteRoundCoffeeTable.usdz";
+import IndustrialStraightLadder from "../assets/models/IndustrialStraightLadder.glb";
+import IndustrialStraightLadderUsdz from "../assets/models/IndustrialStraightLadder.usdz";
 
 const productItems = [
   {
@@ -210,7 +212,7 @@ const productItems = [
     color: "White",
     price: 3000,
     annotations: [
-      {
+      { 
         title: "smooth-surface",
         slot: "hotspot-1",
         position: "0.01m 0.3m -0.1m",
@@ -225,6 +227,33 @@ const productItems = [
         normal: "-0.3m 0.9m -0.01m",
         orbit: "15deg 100deg 0.05m",
         target: "-0.12m 0.03m 0.08m"
+      },
+    ]
+  },
+  {
+    id: 10,
+    name: "Industrial Straight Ladder",
+    modelSrc: IndustrialStraightLadder,
+    iOSSrc: IndustrialStraightLadderUsdz,
+    category: "Tools",
+    color: "Gray",
+    price: 2000,
+    annotations: [
+      {
+        title: "sturdy-frame",
+        slot: "hotspot-1",
+        position: "0.02m 1.0m -0.1m",
+        normal: "0.03m 0.2m 0.95m",
+        orbit: "20deg 120deg 0.05m",
+        target: "-0.12m 0.03m 0.08m"
+      },
+      {
+        title: "anti-slip-steps",
+        slot: "hotspot-2",
+        position: "0.01m 0.5m 0.2m",
+        normal: "-0.3m 0.9m -0.01m",
+        orbit: "18deg 100deg 0.04m",
+        target: "-0.1m 0.02m 0.1m"
       },
     ]
   }
