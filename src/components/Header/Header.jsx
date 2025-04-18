@@ -57,7 +57,7 @@ const Header = ({ wishlistCount = 0 }) => {
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <Link to="/" className="logo">
-          HyperHawks
+          HyperShopAR
         </Link>
         
         <div className="header-right">
