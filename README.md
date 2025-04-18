@@ -1,5 +1,9 @@
 
-24BAI70081 
+24BAI70081
+24BAI70204
+24BAI70356
+24BAI70427
+
 # HyperShop - AR Shopping Tool
 
 Welcome to the **HyperShop AR Shopping Tool** project repository! This project leverages cutting-edge Augmented Reality (AR) technology to deliver an immersive shopping experience directly through your browser. With HyperShop, users can interact with 3D models of products in a real-world environment, making online shopping more interactive, engaging, and personalized.
