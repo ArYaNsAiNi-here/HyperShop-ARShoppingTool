@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import WishList from "./components/Wishlist/WishList";
 import Search from "./components/Search/Search";
+// import { Analytics } from "@vercel/analytics/react"
 import { ThemeProvider } from "./context/ThemeContext";
 
 const App = () => {
