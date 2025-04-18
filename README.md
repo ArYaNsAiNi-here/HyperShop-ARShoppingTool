@@ -79,7 +79,8 @@ To run the AR Web App locally:
 1. Start the development server: sh
   npm start
 
-2. Open your browser and navigate to http://localhost:3000 to view the app.
+2. Open your browser and navigate to http://localhost:3000 to view the app. OR
+   The Project is deployed at https://hypershopar.vercel.app/
    
 
 ## Contributing
