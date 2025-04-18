@@ -14,6 +14,11 @@ import BeigeDeckChairUsdz from "../assets/models/BeigeDeckChair.usdz";
 
 import WoodenDisplayShelf from "../assets/models/WoodenDisplayShelf.glb";
 import WoodenDisplayShelfUsdz from "../assets/models/WoodenDisplayShelf.usdz";
+import BrownDiningChair from "../assets/models/BrownDiningChair.glb";
+import BrownDiningChairUsdz from "../assets/models/BrownDiningChair.usdz";
+
+import WhiteRoundCoffeeTable from "../assets/models/WhiteRoundCoffeeTable.glb";
+import WhiteRoundCoffeeTableUsdz from "../assets/models/WhiteRoundCoffeeTable.usdz";
 
 const productItems = [
   {
@@ -165,6 +170,60 @@ const productItems = [
         position: "0.01m 0.5m 0.2m",
         normal: "-0.3m 0.9m -0.01m",
         orbit: "20deg 110deg 0.05m",
+        target: "-0.12m 0.03m 0.08m"
+      },
+    ]
+  },
+  {
+    id: 8,
+    name: "Brown Dining Chair",
+    modelSrc: BrownDiningChair,
+    iOSSrc: BrownDiningChairUsdz,
+    category: "Furniture",
+    color: "Brown",
+    price: 2500,
+    annotations: [
+      {
+        title: "comfortable-seat",
+        slot: "hotspot-1",
+        position: "0.01m 0.4m -0.1m",
+        normal: "0.03m 0.2m 0.95m",
+        orbit: "15deg 120deg 0.05m",
+        target: "-0.1m 0.02m 0.1m"
+      },
+      {
+        title: "sturdy-legs",
+        slot: "hotspot-2",
+        position: "0.02m 0.2m 0.15m",
+        normal: "-0.3m 0.9m -0.01m",
+        orbit: "18deg 100deg 0.04m",
+        target: "-0.12m 0.03m 0.08m"
+      },
+    ]
+  },
+  {
+    id: 9,
+    name: "White Round Coffee Table",
+    modelSrc: WhiteRoundCoffeeTable,
+    iOSSrc: WhiteRoundCoffeeTableUsdz,
+    category: "Furniture",
+    color: "White",
+    price: 3000,
+    annotations: [
+      {
+        title: "smooth-surface",
+        slot: "hotspot-1",
+        position: "0.01m 0.3m -0.1m",
+        normal: "0.03m 0.2m 0.95m",
+        orbit: "12deg 110deg 0.04m",
+        target: "-0.1m 0.02m 0.1m"
+      },
+      {
+        title: "sturdy-legs",
+        slot: "hotspot-2",
+        position: "0.02m 0.1m 0.15m",
+        normal: "-0.3m 0.9m -0.01m",
+        orbit: "15deg 100deg 0.05m",
         target: "-0.12m 0.03m 0.08m"
       },
     ]
