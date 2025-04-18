@@ -23,6 +23,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color var(--transition-speed);
+  background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+  color: var(--text-color);
 }
 
 .light-theme {
